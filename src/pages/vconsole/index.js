@@ -3,6 +3,7 @@ import VConsole from 'vconsole';
 
 import './style.scss';
 
+document.body.contentEditable = true;
 class aQuery {
   constructor(selector) {
     this.doc = document;
